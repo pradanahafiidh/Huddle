@@ -743,6 +743,10 @@ video {
   background-image: url(/dist/images/bg-hero-mobile.svg);
 }
 
+.bg-\[url\(dist\/images\/bg-hero-mobile\.svg\)\] {
+  background-image: url(dist/images/bg-hero-mobile.svg);
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -1002,6 +1006,10 @@ body {
 
   .lg\:bg-\[url\(\/dist\/images\/bg-hero-desktop\.svg\)\] {
     background-image: url(/dist/images/bg-hero-desktop.svg);
+  }
+
+  .lg\:bg-\[url\(dist\/images\/bg-hero-desktop\.svg\)\] {
+    background-image: url(dist/images/bg-hero-desktop.svg);
   }
 
   .lg\:px-10 {
